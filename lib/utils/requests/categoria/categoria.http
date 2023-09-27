@@ -1,0 +1,11 @@
+GET http://localhost:8080/categoria/all
+
+###
+
+Post http://localhost:8080/categoria/save
+Content-Type: application/json
+
+{
+    "id": null,
+    "nome": "Farmacia"
+}
